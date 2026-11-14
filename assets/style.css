@@ -122,3 +122,8 @@ footer { text-align: center; color: var(--muted); font-size: .85rem; padding: 24
   .timeline li { grid-template-columns: 1fr; }
   .links { grid-template-columns: 1fr; justify-items: center; }
 }
+
+.card-link { color: var(--text); display: flex; flex-direction: column; transition: border-color .15s, transform .15s; }
+.card-link:hover { text-decoration: none; border-color: var(--accent); transform: translateY(-2px); }
+.card-link p { flex: 1; }
+.repo { margin-top: 12px; font-size: .88rem; font-weight: 600; color: var(--accent); }

@@ -15,4 +15,5 @@ Static site for GitHub Pages. It needs no build step: plain HTML and CSS.
 ## Update
 - To add a news item, copy a `<li>` in the News section.
 - To add a paper, copy a `<div class="pub">` block in the Publications section.
-- To add a CV, Google Scholar or GitHub link, uncomment the lines in the sidebar `<!-- Add when ready -->` block and put `cv.pdf` in `assets/`.
+- To update the CV, replace `assets/cv.pdf`.
+- To add Google Scholar, uncomment the line in the sidebar `<!-- Add when ready -->` block and put in your profile URL.
